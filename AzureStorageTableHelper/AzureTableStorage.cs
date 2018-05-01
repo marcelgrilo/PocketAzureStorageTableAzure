@@ -77,7 +77,7 @@ namespace AzureStorageTableHelper
 
         public async Task<T> GetItem(string partitionKey, string rowKey)
         {
-            //Table
+            //Table 
             CloudTable table = await GetTableAsync();
 
             //Operation
