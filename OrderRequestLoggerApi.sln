@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderRequestLoggerApi", "OrderRequestLoggerApi\OrderRequestLoggerApi.csproj", "{F0034D05-107A-49E3-ACB3-314C12D8210F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.presentation", "1.presentation", "{974E45A0-921B-4E39-87CE-6F33D1B20706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.services", "2.services", "{2E394734-C899-44F4-9B25-FBA44F45695F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Application", "{2D1EDB59-0661-45CD-BEE0-8AC838A359BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.domain", "4.domain", "{A7CD86A7-D13E-41EE-A371-151B0E89A95A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.infra", "5.infra", "{8EA3DEE3-0071-4875-B9EB-895916D1347A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.x.cross-cutting", "5.x.cross-cutting", "{3C140F74-57A3-448D-8F49-6E0E9838C801}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageTableHelper", "AzureStorageTableHelper\AzureStorageTableHelper.csproj", "{B929B770-7217-403D-9255-F1F16F6919EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.Domain", "Logger.Domain\Logger.Domain.csproj", "{6D81F56B-2E11-4E15-AC64-D59C3F55BBF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0034D05-107A-49E3-ACB3-314C12D8210F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0034D05-107A-49E3-ACB3-314C12D8210F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0034D05-107A-49E3-ACB3-314C12D8210F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0034D05-107A-49E3-ACB3-314C12D8210F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B929B770-7217-403D-9255-F1F16F6919EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B929B770-7217-403D-9255-F1F16F6919EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B929B770-7217-403D-9255-F1F16F6919EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B929B770-7217-403D-9255-F1F16F6919EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D81F56B-2E11-4E15-AC64-D59C3F55BBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D81F56B-2E11-4E15-AC64-D59C3F55BBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D81F56B-2E11-4E15-AC64-D59C3F55BBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D81F56B-2E11-4E15-AC64-D59C3F55BBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0034D05-107A-49E3-ACB3-314C12D8210F} = {974E45A0-921B-4E39-87CE-6F33D1B20706}
+		{3C140F74-57A3-448D-8F49-6E0E9838C801} = {8EA3DEE3-0071-4875-B9EB-895916D1347A}
+		{B929B770-7217-403D-9255-F1F16F6919EB} = {3C140F74-57A3-448D-8F49-6E0E9838C801}
+		{6D81F56B-2E11-4E15-AC64-D59C3F55BBF8} = {A7CD86A7-D13E-41EE-A371-151B0E89A95A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0404FAA-5A54-47BA-BF1B-9AF390E1EA8F}
+	EndGlobalSection
+EndGlobal
